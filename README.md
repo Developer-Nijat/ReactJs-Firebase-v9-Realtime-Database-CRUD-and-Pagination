@@ -7,7 +7,7 @@
 4. Install npm modules and run commmand `npm start`
 
 Firebase realtime database rules
-`
+```
 {
   "rules": {
     "items": {
@@ -21,7 +21,7 @@ Firebase realtime database rules
     ".write": "now < 1682884800000",  // 2023-5-1
   }
 }
-`
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
