@@ -1,4 +1,4 @@
-# ReactJs & Firebase v9 Realtime Database | CRUD andm Pagination
+# ReactJs & Firebase v9 Realtime Database | CRUD and Pagination
 
 ## Project Configuration
 1. Configure firebase and realtime database from firebase console.
