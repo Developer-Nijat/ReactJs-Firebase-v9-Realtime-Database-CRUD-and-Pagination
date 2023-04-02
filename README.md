@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Getting Started
+
+## Project Configuration
+1. Configure firebase and realtime database from firebase console.
+2. Replace firebaseConfig data in `firebase.js` file with your firebaseConfig
+3. Configure firebase realtime database rules from firebase console
+4. Install npm modules and run commmand `npm start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
