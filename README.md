@@ -6,6 +6,23 @@
 3. Configure firebase realtime database rules from firebase console
 4. Install npm modules and run commmand `npm start`
 
+Firebase realtime database rules
+`
+{
+  "rules": {
+    "items": {
+      ".indexOn": ["createdAt"],
+      "$itemId": {
+        ".read": true,
+        ".write": true
+      }
+    },
+    ".read": "now < 1682884800000",  // 2023-5-1
+    ".write": "now < 1682884800000",  // 2023-5-1
+  }
+}
+`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
